@@ -11,5 +11,5 @@ $Shortcut.WorkingDirectory = "$aria2Dir\bin"
 $Shortcut.Save()
 
 Write-Host "aria2 run..."
-.\kill.bat
+#.\kill.bat
 wscript.exe "aria2.vbs"
